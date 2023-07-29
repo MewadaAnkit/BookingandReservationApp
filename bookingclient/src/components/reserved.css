@@ -1,0 +1,86 @@
+/* CSS for Profile Page */
+.profile-container {
+    background-color: white;
+    padding: 20px;
+  }
+  
+  .profile-heading {
+    color: #007bff;
+    font-size: 24px;
+    margin-bottom: 20px;
+    margin-top: 30px;
+    margin-left: 45%;
+    font-size: 1.7rem;
+  }
+  
+  .hotel-table,
+  .room-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+  }
+  
+  .hotel-table th,
+  .hotel-table td,
+  .room-table th,
+  .room-table td {
+    padding: 10px;
+    border: 1px solid #e0e0e0;
+  }
+   
+  
+  .hotel-table th {
+    background-color: white;
+    text-align: center;
+    font-size: 1.2rem;
+  }
+  .hotel-table tbody{
+     font-weight: 400;
+   
+  }
+  
+  .room-table th {
+    background-color:white;
+    text-align: center;
+    width: 40%;
+    font-size: 1.2rem;
+  }
+  
+  .room-table ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+  }
+  .room-table ul li{
+    font-size: 0.7;
+    text-align: center;
+    font-weight: bold;
+  }
+  .reserved-date {
+    margin-bottom: 3px;
+  }
+  
+  .Back {
+    background-color: #007bff;
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  .cancel {
+    align-items:center;
+    justify-content:right;
+    margin-left: 50px;
+    background-color: red;
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  .Back:hover {
+    background-color: #0056b3;
+  }
+  
